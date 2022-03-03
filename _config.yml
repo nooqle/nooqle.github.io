@@ -1,39 +1,44 @@
 # Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+repository: nooqle/nooqle.github.io
+favicon: images/favicon.png
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: 乔乐
+title: 产品高管
+email: kiddlele@gmail.com
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+twitter_username: nooqle_eth
+#github_username:  sproogen
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+instagram_username: kiddlele
+#linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+#youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
-# Additional icon links
+#Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+- title: weixin
+  icon: fas fa-weixin
+  url: https://mp.weixin.qq.com/s?__biz=MjM5ODMwNDg4Mw==&mid=2649991990&idx=1&sn=bcca9d3fe0aa7b3c4450055bda5c9704&chksm=becbc62a89bc4f3c395d23df463d6bb2b2d432ae7920f816e8d53b00cd0368fbb2dc2f447c0f&token=1989953337&lang=zh_CN#rd
+- title: ens
+  icon: fas fa-ethereum
+  url: https://rainbow.me/nooqle.eth
+- title: mirror
+  icon: fas fa-markdown
+  url: https://mirror.xyz/0xe0DEcc7496E23e0318c78396772891BF1A5FC5D1
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,43 +53,56 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Welcome.我是乔乐，做了10年产品，2011年入行，赶上移动互联网的浪潮与红利，14年做出了人生第一个DAU千万的产品。从14年先后在陌陌、斗鱼、猎豹探索国内与海外的社交模式创新以及商业模式搭建，18年入坑在互联网医疗行业参与创业，完成从TO C到TO B到TO G的产品线与业务模式搭建，伴随政策的起伏，业务过山车似的发展，团队规模也从寥寥数人到接近200人再到寥寥数人。再上路是个很好的说辞，但底色稍显悲凉。始终对这个世界好奇，也信仰We’re here to put a dent in the universe.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  比较擅长： <mark>各端产品与业务设计推演</mark>&<mark>人才培养</mark>&<mark>业务底层逻辑与战略梳理</mark>&<mark>web3碳基遍历线程</mark>&<mark>历史与人物传记研究</mark>&<mark>骨科基础知识</mark>
 
-content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+#content:
+  #- title: Projects # Title for the section
+   # layout: list # Type of content section (list/text)
+   # content:
+    #  - layout: top-middle
+       # title: Super awesome project
+        #link: github.com/sproogen
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        #additional_links:
+          #- title:  sproogen/modern-resume-theme
+            #icon: fab fa-github
+            #url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+        #quote: >
+          #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        #description: | # this will include new lines to allow paragraphs
+          #I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: 唯医骨科，北京
+        link: allinmd.cn
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: 产品VP
+        caption:  August 2018 - Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          唯医骨科2013年成立，目前是中国用户规模最大线上骨科医生继续教育平台，围绕给骨科医生赋能以及解决骨科医疗上的看病难等问题，建设了互联网医院平台、骨科云平台、科研平台以及线下骨科实体医院等多个业务板块，通过各种技术手段，让医生工作更高效，让患者治疗更安心。
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            - 负责唯医骨科的医生教育产品，其中主导产品重构与改版，从0到1的搭建知识付费产品唯医学院，医生付费年收入800万；20年疫情期间推动医生教育直播业务上线，MAU提升27%；20年基本业务交出去，转而负责公司接下来的战略业务重点突破。 、
+            - 负责唯医骨科的新战略业务骨科云产品（医带患），20年Q1主导产品1.0版本上线，通过医疗数据工具+患者服务+患者内容三条业务线撬动核心专家带来公司患者数量的增长（半年上万骨科患者新增，一年累计20万患者），引入核心合作专家科室50个（覆盖积水潭、解放军总医院、红会医院等），创新线上术后康复的服务模式，3个月完成150+订单。初步形成骨科医生运营与患者流量增长的模型。 
+            - 负责唯医产品战略的制定与落地，对未来3-5年的医疗政策与技术演变做布局，与小度、阿里达摩院深度合作（音箱产品入院以及智能影像算法产品化），与战略落地匹配。 
+            - 管理上，从产品单一团队扩展到小型事业部的全团队（10人到150人），建立多团队与项目协同机制，参与公司的价值观与OKR机制制定与落地，推动公司组织匹配战略转变，18年到21年连续年终考核绩效A。 
+      layout: left
+        title: 唯医骨科，北京
+        link: allinmd.cn
+        # link_text: boringcompany.com
+        sub_title: 产品VP
+        caption:  August 2018 - Present
+        quote: >
+          唯医骨科2013年成立，目前是中国用户规模最大线上骨科医生继续教育平台，围绕给骨科医生赋能以及解决骨科医疗上的看病难等问题，建设了互联网医院平台、骨科云平台、科研平台以及线下骨科实体医院等多个业务板块，通过各种技术手段，让医生工作更高效，让患者治疗更安心。
+        description: | # this will include new lines to allow paragraphs
+            - 负责唯医骨科的医生教育产品，其中主导产品重构与改版，从0到1的搭建知识付费产品唯医学院，医生付费年收入800万；20年疫情期间推动医生教育直播业务上线，MAU提升27
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
