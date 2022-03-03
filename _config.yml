@@ -1,5 +1,5 @@
 # Site
-#repository: nooqle/nooqle.github.io
+repository: nooqle/nooqle.github.io
 favicon: images/favicon.png
 
 # Content configuration version
@@ -9,6 +9,8 @@ version: 2
 name: 乔乐
 title: 产品高管
 email: kiddlele@gmail.com
+phone: 13910056280
+
 
 # Dark Mode (true/false/never)
 darkmode: false
