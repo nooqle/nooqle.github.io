@@ -159,12 +159,15 @@ content:
         sub_title: 计算机科学与技术 本科
         caption: 2005 - 2009
         
-  - title: A Little More About Me
+  - title: More About Me
     layout: text
     content: | 
       > Disc测试结果
+      
         Succese Insights：自然--StrongD 说服型指挥者，适应--Weak SI 支持型联谊者。
+       
         职场激励洞悉：第一实用75，第二传统58，第三个人55，第四理论48，第五社会45，第六唯美18。
+        
         风格洞悉：自然风格 D78，I55，S58，C24；适应风格 D48，I58，S63，C48
 
 # Footer
