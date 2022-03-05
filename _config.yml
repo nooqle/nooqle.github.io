@@ -1,6 +1,6 @@
 # Site
 repository: nooqle/nooqle.github.io
-favicon: images/favicon.ico
+favicon: images/favicon.png
 
 # Content configuration version
 version: 2
@@ -19,27 +19,33 @@ phone: 13910056280
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+twitter_username: nooqle_eth
+#github_username:  sproogen
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: kiddlele
+#linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
 
-# Additional icon links
+#Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+- title: weixin
+  icon: fas fa-weixin
+  url: https://mp.weixin.qq.com/s?__biz=MjM5ODMwNDg4Mw==&mid=2649991990&idx=1&sn=bcca9d3fe0aa7b3c4450055bda5c9704&chksm=becbc62a89bc4f3c395d23df463d6bb2b2d432ae7920f816e8d53b00cd0368fbb2dc2f447c0f&token=1989953337&lang=zh_CN#rd
+- title: ens
+  icon: fas fa-ethereum
+  url: https://rainbow.me/nooqle.eth
+- title: mirror
+  icon: fas fa-markdown
+  url: https://mirror.xyz/0xe0DEcc7496E23e0318c78396772891BF1A5FC5D1
 # - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
@@ -48,76 +54,111 @@ additional_links:
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
-# About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+#About Section
+about_title: About Me
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Welcome.我是乔乐，做了10年产品，2011年入行，赶上移动互联网的浪潮与红利，14年做出了人生第一个DAU千万的产品。从14年先后在陌陌、斗鱼、猎豹探索国内与海外的社交模式创新以及商业模式搭建，18年入坑在互联网医疗参与创业，完成从TO C到TO B到TO G的产品线与业务模式搭建，伴随政策的起伏，业务过山车似的发展，团队规模也从寥寥数人到接近200人再到寥寥数人。再上路是个很好的说辞，底色也不悲凉。始终对这个世界好奇，也信仰We’re here to put a dent in the universe.
+  
+  比较擅长： <mark>各端产品与业务设计推演</mark>&<mark>团队组建和人才培养</mark>&<mark>业务底层逻辑与战略梳理</mark>&<mark>web3碳基遍历线程</mark>&<mark>历史与人物传记研究</mark>&<mark>医疗基础知识</mark>
 
 content:
-  - title: Projects # Title for the section
+   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
-    content:
+      content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: 唯医骨科，北京
+        link: https://www.allinmd.cn
+        link_text: Allinmd
+        sub_title: 产品VP
+        caption:  August 2018 - Present
         quote: >
-          Short overview of the project (optional)
+          唯医骨科2013年成立，目前是中国用户规模最大线上骨科医生继续教育平台，围绕给骨科医生赋能以及解决骨科医疗上的看病难等问题，建设了互联网医院平台、骨科云平台、科研平台以及线下骨科实体医院等多个业务板块，通过各种技术手段，让医生工作更高效，让患者治疗更安心。
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+            - 负责唯医骨科的医生教育产品，其中主导产品重构与改版，从0到1的搭建知识付费产品唯医学院，医生付费年收入800万；20年疫情期间推动医生教育直播业务上线，MAU提升27%；20年基本业务交出去，转而负责公司接下来的战略业务重点突破。 、
+            - 负责唯医骨科的新战略业务骨科云产品（2B2C），20年Q1主导产品1.0版本上线，通过医疗数据工具+患者服务+患者内容三条业务线撬动核心专家带来公司患者数量的增长（半年上万骨科患者新增，一年累计20万患者），引入核心合作专家科室50个（覆盖积水潭、解放军总医院、红会医院等），创新线上术后康复的服务模式，3个月完成150+订单。初步形成骨科医生运营与患者流量增长的模型。 
+            - 负责唯医产品战略的制定与落地，对未来3-5年的医疗政策与技术演变做布局，与小度、阿里达摩院深度合作（音箱产品入院以及智能影像算法产品化），与战略落地匹配。 
+            - 管理上，从产品单一团队扩展到小型事业部的全团队（10人到150人），建立多团队与项目协同机制，参与公司的价值观与OKR机制制定与落地，推动公司组织匹配战略转变，18年到21年连续年终考核绩效A。       
+       content:
+      - layout: left
+        title: 斗鱼直播
+        sub_title: 产品总监
+        caption:  November 2017 - August 2018
+        link: https://douyu.com
+        link_text: Douyu
         description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
+          - 负责斗鱼直播的社区搭建产品工作，通过鱼吧/小游戏/车队等产品模式，带领团队逐步打造出斗鱼内部独特的年轻化/八卦化的社区氛围，以头部主播资源和头部付费用户为核心，拓展不同层级用户在社区中的贡献度，将社区原有的UGC模式发展成OGC做斗鱼社区内容ip，PGC做斗鱼内容模版，UGC做长尾内容补充的多级内容生态。 
+          - 从0到1探索了业界第一个围绕头部付费用户的社群产品—车队，通过车队模式进一步将付费用户与主播之间的消费供给关系提升到氛围供给关系，利用付费用户的付费能力，带动了车队不同层级用户对直播间弹幕和付费行为的提升。 
+        content:
+      - layout: left
+        title: 猎豹移动
+        sub_title: 产品总监
+        caption:  March 2017 - November 2017
+        link: https://cmcm.com
+        link_text: Cheetah Mobile
+        description: | # this will include new lines to allow paragraphs
+          - 负责WhatsCall基于中东（沙特）开拓新的社交市场，搭建了社交关系体系（包括好友关系，IM消息），通过对中东市场的分析和判断，近一步开拓了视频聊天（日均通话2w分钟，日活渗透10%）。 在沙特利雅得以及阿联酋迪拜进行实地调研后，开始探索中东地区的短视频市场，主导设计并研发了以深度学习智能编辑为核心的视频拍摄编辑社区产品GoRec
+          - 后公司层面叫停中东探索，项目组解散，我个人调整到Live.me负责美国的短视频新产品Cheez。
+       content:
+      - layout: left
+        title: 陌陌
+        sub_title: 产品部副总监
+        caption:  November 2014 - September 2016
+        link: https://immomo.com
+        link_text: Momo
+        description: | # this will include new lines to allow paragraphs
+          - 先后负责了陌陌的会员等级体系，礼物商城，红包等商业变现产品，之后转为平台产品负责人，搭建陌陌的帐号安全体系、以用户体验感受为考核标准的反作弊系统、从0到1组建了陌陌的用户增长团队（负责产品的短期留存、用户等级体系、中长期留存、渠道投放策略等）、重新规划和上线了官方帐号与公众帐号体系、定义以及规划平台内的流量分发（包括广告位置/直播流量导入/游戏流量规划等）。从16年Q1开始全面负责产品部，推动上线了陌陌用户等级产品，以及7.0时刻版本。
+          - 管理上，在公司内部首先推广使用OKR制度评价员工的部门（15年全年），并以OKR作为绩效打分的基础。在2016年Q1产品部获得管理会S级评价，Q2获得A级评价。 
+        content:
+      - layout: left
+        title: 百度
+        sub_title: 资深产品设计师
+        caption:  September 2012- November 2014
+        link: https://baidu.com
+        link_text: Baidu
+        description: | # this will include new lines to allow paragraphs
+          - 负责百度手机助手Android客户端主线产品功能规划与设计，通过web高速下载模式以及增量更新技术，1年内提升手机助手Dau从100w+到1400w，客户端+WEB+PC的日分发量破亿。
+          - 提出以手机管理功能沉淀用户带动分发的思路，成功建立以一键加速为核心的手机管理功能体系，推出了业界第一个智能推荐卸载系统，迅速提升手机助手客户端的留存率；
+        content:
+      - layout: left
+        title: 百合网
+        sub_title: 产品经理
+        caption:  May 2011 - September 2012
+        link: https://baihe.com
+        link_text: Baihe
+        description: | # this will include new lines to allow paragraphs
+          - 负责百合网地图搜索产品和新浪微博平台应用等产品，地图搜索产品上线以来，进行了两次迭代，一次大的需求的增加和整个产品导向的变化。 吸引百合网10%的活跃用户到百合地图搜索，日产生发信量达到10w 
+          - 负责非诚勿扰2期的改版工作（Android以及Windows phone），以及接入第三方数据统计完善公司内部统计数据的建立等工作，推进渠道管理和加强市场推广力度，参与手机内置应用推广工作，改进用户体验,非诚勿扰Android版本日活10w.
+        content:
+      - layout: left
+        title: 央视索福瑞媒介研究
+        sub_title: 数据检查员
+        caption:  August 2009 - May 2011
+        link: https://www.csm.com.cn
+        link_text: CSM
+        description: | # this will include new lines to allow paragraphs
+          - 负责重庆、温州等5个地方站共2000个样本的收视率数据维护工作，安排地方站员工每日工作，并协助进行样本替换与清洗。 
+
+ - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+        title: 首都师范大学
+        sub_title: 计算机科学与技术 本科
+        caption: 2005 - 2009
+        
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      > Disc测试结果 Succese Insights：自然--StrongD 说服型指挥者，适应--Weak SI 支持型联谊者。职场激励洞悉：第一实用75，第二传统58，第三个人55，第四理论48，第五社会45，第六唯美18。风格洞悉：自然风格 D78，I55，S58，C24；适应风格 D48，I58，S63，C48
 
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+theme: modern-resume-theme
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
