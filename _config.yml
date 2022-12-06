@@ -40,7 +40,7 @@ additional_links:
   url: https://mp.weixin.qq.com/s?__biz=MjM5ODMwNDg4Mw==&mid=2649991990&idx=1&sn=bcca9d3fe0aa7b3c4450055bda5c9704&chksm=becbc62a89bc4f3c395d23df463d6bb2b2d432ae7920f816e8d53b00cd0368fbb2dc2f447c0f&token=1989953337&lang=zh_CN#rd
 - title: ens
   icon: fab fa-ethereum
-  url: https://rainbow.me/nooqle.eth
+  url: https://opensea.io/nooqle
 - title: mirror
   icon: fab fa-markdown
   url: https://mirror.xyz/0xe0DEcc7496E23e0318c78396772891BF1A5FC5D1
@@ -71,7 +71,7 @@ content:
         link: https://www.allinmd.cn
         link_text: Allinmd
         sub_title: 产品VP
-        caption:  August 2018 - Present
+        caption:  August 2018 - April 2022
         quote: >
           唯医骨科2013年成立，目前是中国用户规模最大线上骨科医生继续教育平台，围绕给骨科医生赋能以及解决骨科医疗上的看病难等问题，建设了互联网医院平台、骨科云平台、科研平台以及线下骨科实体医院等多个业务板块，通过各种技术手段，让医生工作更高效，让患者治疗更安心。
         description: | 
