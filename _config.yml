@@ -68,8 +68,8 @@ content:
     content:
       - layout: left
         title: 钛行科技，北京
-        #link: https://www.allinmd.cn
-        #link_text: Allinmd
+        link: null
+        link_text: 钛行
         sub_title: 合伙人
         caption:  April 2022 - Now
         quote: >
