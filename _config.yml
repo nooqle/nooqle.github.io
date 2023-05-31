@@ -63,13 +63,13 @@ about_content: |
   比较擅长： <mark>各端产品与业务设计推演</mark> <mark>团队组建和人才培养</mark> <mark>业务底层逻辑与战略梳理</mark> <mark>web3碳基遍历线程</mark> <mark>历史与人物传记研究</mark> <mark>医疗基础知识</mark>
 
 content:
- - title: Experience
+  - title: Experience
     layout: list
     content:
       - layout: left
         title: 钛行科技，北京
-        link: null
-        link_text: 钛行
+        #link: null
+        #link_text: 钛行
         sub_title: 合伙人
         caption:  April 2022 - Now
         quote: >
